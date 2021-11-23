@@ -1,0 +1,8 @@
+# I535-Pyspark-Project
+This repo consists of pyspark implementation of EDA which were run on GCP clusters using HDFS data storage
+
+## Introduction of the project
+For the course project I chose to go with a hands-on project from the options. I am using hadoop clusters and using google cloud platform as the virtualization platform. By using the data proc in gcp creating clusters and using the storage buckets in gcp to store the data and using pyspark to implement a pipeline and our exploration of data is run on parallel programming framework by using hadoop we cleaned the data, explore important features and removed outliers.
+		For the data I used New York City Airbnb Open data Since 2008, Airbnb has allowed guests and hosts to broaden their travel options and present a more distinctive, personalized way of seeing the world. For the year 2019, this information describes the listing activity and analytics in NYC, NY. This data file contains all of the information needed to learn more about hosts, as well as the relevant metrics for making predictions and drawing conclusions. The dataset contains 47,571 listings and 16 features like reviews, neighbors, price, latitudes , longitudes and other relevant features. 
+
+A part of the project is exploratory data analysis done in pyspark. We learned about different hosts and areas in New York city. We learned about any similarities in location, prices and reviews. Which hosts are usually busy and what are the reasons for them being successful. Analyse the differences of traffic among different neighbourhoods and find the features or reasons for it.
